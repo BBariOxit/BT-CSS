@@ -1,0 +1,48 @@
+html {
+    font-size: 62.5%;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.main {
+    margin: 20px;
+    position: relative;
+}
+.content {
+    height: 500px;
+    background: linear-gradient(to right,#fbc2eb, #a6c1ee);
+    border-radius: 3px;
+    border: 5px solid #333;
+    box-shadow: 20px 20px 0 #333;
+    font-size: 9rem;
+    font-weight: 600;
+    font-style: italic;
+    position: relative;
+    transition: right linear .6s;
+    right: 0;
+}
+.content:hover{
+    background: linear-gradient(#ed6ea0, #ec8c69);
+    /* animation: FadeIn ease-in .5s; */
+
+}
+.content:hover {
+    right: 50px;
+}
+.msg {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: -webkit-linear-gradient(#434343, black);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    
+}
+
+@keyframes FadeIn {
+    from {
+       opacity: 0.6;
+    }
+    to {
+        opacity: 1;
+    }
+}

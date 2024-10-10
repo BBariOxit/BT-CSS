@@ -1,0 +1,10 @@
+html {
+    font-size: 62.5%;
+    font-family: sans-serif;
+    box-sizing: border-box;
+}
+body {
+    height: 30px;
+    background-image: url(./img/pexels-lynxexotics-3802510.jpg);
+    background-size: contain;
+}

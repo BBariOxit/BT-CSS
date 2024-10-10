@@ -1,0 +1,85 @@
+html {
+    font-size: 62.5%;
+    font-family: sans-serif;
+    box-sizing: border-box;
+}
+.main {
+    margin: 20px;
+    font-size: 2.8rem;
+    font-weight: 500;
+    /* background-color: #ccc; */
+    /* border: 3.5px solid #333; */
+    border-radius: 3px;
+    /* padding-bottom: 40px; */
+}
+.layout {
+    background-color: #ccc;
+    border: 3.5px solid #333;
+    margin-bottom: 25px;
+    padding: 10px;
+}
+li:first-child { color: red; }
+input:checked + label {
+    color: red;
+}
+input[type="checkbox"]:checked {
+    box-shadow: 0 0 0 3px hotpink;
+}
+.phan3 p::first-letter {
+    color: white;
+    background-color: #333;
+    border-radius: 2px;
+    font-size: 150%;
+    box-shadow: 3px 3px 0 yellow;
+    padding: 6px 3px;
+    margin-right: 5px;
+}
+.phan3 p::before {
+    content: "Đọc thêm: ";
+    color: red;
+    font-weight: bold;
+}
+.phan3 p::after {
+    content: "(Kết thúc)";
+    color: red;
+    font-weight: bold;
+}
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,500;1,400&display=swap');
+nav {
+    border: 2px solid #333;
+    border-radius: 2rem;
+    max-width: 600px;
+    margin: 0 auto 1rem;
+    font-size: 3rem;
+    line-height: 7rem;
+}
+.phan4 h2 {
+    padding: 1rem;
+    background-color: gold;
+    border-radius: 2rem 2rem 0 0;
+}
+.phan4 ul {
+    list-style-type: none;
+    padding-left: 0;
+}
+.phan4 li {
+    border-top: 1px solid #333;
+    text-align: center;
+}
+.phan4 li a {
+    display: block;
+}
+.phan4 li a,
+.phan4 li a:visited {
+    text-decoration: none;
+    color: #333;
+}
+.phan4 li a:hover,
+.phan4 li a:focus {
+    background: #333;
+    color: whitesmoke;
+    cursor: pointer;
+}
+.phan4 li:last-child a{
+    border-radius: 0 0 2rem 2rem;
+}
